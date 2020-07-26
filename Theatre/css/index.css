@@ -1,0 +1,148 @@
+@import url('../css/fonts.css');  /* import fonts.css files*/
+
+html,body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Theme font family */
+
+:root{    
+
+    --main-bg-color: coral; 
+
+      /* fonts   --aman :''; via this you can create variable */
+    --Abel:'Abel', cursive ;
+    --Anton:'Anton'  ;
+    --livvic : 'Livvic' ;
+    --lexend : 'lexend';
+
+    /* Color */
+    --text-gray:#3f4954;
+    --text-light:#686666da;
+    --white:#ffffff;
+    --midnight:#104f55;
+
+      /* gradient color */
+    --sky : linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+
+}
+
+
+/* Global classes */
+a{
+    text-decoration: none;       /* used for remove line under text*/
+    color: black;
+   
+}
+
+.flex-row{
+    flex-direction:row ;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+ul {
+    list-style-type: none;  /* remove bullet symbol from navitems*/
+}
+/* XXX Global classes */
+
+/* Navbar*/
+
+.nav{
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;      /* used for collapseing navbar */
+    overflow: hidden;
+    
+}
+
+/* Logo */
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family:livvic , cursive;   /* use your own font livvic which in fonts.css file*/
+   
+ 
+}
+/* nav baar  */
+.nav .nav-menu{
+    display: flex;
+   
+}
+.nav .nav-items{
+  
+    display: flex;     /* make horizontal */
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem ;
+    position: relative;
+   
+
+}
+.nav .nav-items .nav-link:hover{
+    background-color:gainsboro;
+
+}
+/* insta , fb icon styling */
+.nav .social{
+    padding: 1.4rem 0;
+
+}
+
+.nav .social i:hover{
+  color: greenyellow;
+}
+/*----------------------------------------------- XXX Navbar ----------------------------------------------------------------------*/
+
+/*-----------------------------------------------  Center ----------------------------------------------------------------------*/
+
+main .website-title .website-background{
+    background: url('../images/54926dbf9f8c6f566ba85959.w800-2.jpg');
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    font-family: var(--lexend);
+    
+   
+}
+/* Button  styling  */
+#butn {
+    color: red;
+    margin: 7.3rem;
+    background: var(--sky);
+    display:flex;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    font-family: var(--livvic);
+    
+   
+}
+#butn:hover{
+    background: gray;
+    cursor: pointer;
+    color: white;
+}
+
+/*-----------------------------------------------  owl carousel ----------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------- XXX Center ----------------------------------------------------------------------*/
+

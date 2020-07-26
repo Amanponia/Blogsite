@@ -1,0 +1,31 @@
+/* CSS file which contain stylish fonts which you can download from google fonts .
+    Link those font-family file to this 
+*/
+
+
+/*font family Abel*/
+@font-face{
+    font-family:Abel;
+    src: url('../fonts/Abel/Abel-Regular.ttf');   /* path = where downloaded file reside*/
+}
+/*font family Abel*/
+@font-face{
+    font-family:Anton;
+    src: url('../fonts/Abel/Anton-Regular.ttf');
+}
+
+/*font family Abel*/
+@font-face{
+    font-family:Lexend;
+    src: url('../fonts/Lexend_Deca/LexendDeca-Regular.ttf');
+}
+/*font family Abel*/
+@font-face{
+    font-family:Livvic;
+    src: url('../fonts/Livvic/Livvic-Regular.ttf');
+}
+
+
+
+
+/*Link it in your project css via import statement & use them*/
